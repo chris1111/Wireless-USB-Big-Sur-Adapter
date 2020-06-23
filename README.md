@@ -413,7 +413,7 @@
 
 - See my new video on macOS Big Sur
 ## Follow every steps in the Video ⬇︎
-[![Modular Image Creation](![https://i87.servimg.com/u/f87/17/99/48/98/68747410.png))]()
+[![Modular Image Creation](![https://i87.servimg.com/u/f87/17/99/48/98/68747410.png)]()
 
 
 This driver runs from macOS Big Sur 10.16
