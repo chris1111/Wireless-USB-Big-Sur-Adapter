@@ -411,6 +411,8 @@
 
 </details>
 
+### NOTE: this program is not responsible for any damage or machine that does not boot anymore.
+
 ## SIP enable for the demonstration. Working also SIP disable
 - See my new video on macOS Big Sur
 ## Follow every steps in the Video ⬇︎
