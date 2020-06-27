@@ -2,6 +2,7 @@
 
 ### Welcome to Wireless USB Big Sur Adapter
 ### Support macOS Big Sur 10.16 Only! (DO NOT USE ON OTHER OS's)
+- Not working in OpenCore and AMD
 
 - Release Update 23 June 2020
 
