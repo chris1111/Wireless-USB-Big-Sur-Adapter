@@ -8,7 +8,7 @@
 
 #### Drivers for Realtek 802.11n and 802.11ac USB Wi-Fi adapters 
 
-#### Packages for macOS (Real Mac) working also for Hackintosh PC or Laptop
+#### Packages for macOS (Real Mac) Not working on Hackintosh PC or Laptop
 - Credit: ➣ [Realtek](https://www.realtek.com/en/)
 
 
