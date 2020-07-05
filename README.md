@@ -4,7 +4,7 @@
 ### Support macOS Big Sur 10.16 Only! (DO NOT USE ON OTHER OS's)
 - Beta 1 = Not working on Hackintosh only work in real Mac. Not test on Unsuported Mac
 
-- Release Update 23 June 2020
+- Release Update o4 July 2020 More permision fix
 
 #### Drivers for Realtek 802.11n and 802.11ac USB Wi-Fi adapters 
 
@@ -433,5 +433,7 @@ The system is required to reboot after the driver is installed, so please close 
     - 4. From the "Configure" list, select the correct adapter and configure it.
     - 5. Configure the settings.
     
-    #### Download latest Release V1 [➤ Wireless USB Big Sur Adapter-V1.pkg ](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases)
+#### Download latest Release V2 [➤ Wireless USB Big Sur Adapter-V2.pkg ](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V2)
+    
+#### Download Release V1 [➤ Wireless USB Big Sur Adapter-V1.pkg ](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases)
 
