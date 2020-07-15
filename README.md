@@ -1,7 +1,7 @@
 # Wireless USB Big Sur Adapter
 
 ### Welcome to Wireless USB Big Sur Adapter
-### Support macOS Big Sur 10.16 Only! (DO NOT USE ON OTHER OS's)
+### Support macOS Big Sur 11 Only! (DO NOT USE ON OTHER OS's)
 - Beta 1 = Not working on Hackintosh only work in real Mac. Not test on Unsuported Mac
 
 - Release Update o4 July 2020 More permision fix
