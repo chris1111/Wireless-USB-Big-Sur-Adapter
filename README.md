@@ -5,7 +5,7 @@
 - Not working = Beta 1 on Hackintosh only work in real Mac. Not test on Unsuported Mac
 - Working = Beta 2, Beta 3 on Hackintosh and real Mac
 
-- Release Update o4 July 2020 More permision fix
+- Release Update 04 July 2020 More permision fix
 
 #### Drivers for Realtek 802.11n and 802.11ac USB Wi-Fi adapters 
 
