@@ -8,7 +8,7 @@
 ## Working SIP disable on Beta 3
 - To using relase V3 SIP Security must be disable
 
-- Release Update 04 July 2020 More permision fix
+- Release Update 24 July 2020 fix for Beta 3
 
 #### Drivers for Realtek 802.11n and 802.11ac USB Wi-Fi adapters 
 
