@@ -5,6 +5,9 @@
 - Not working = Beta 1 on Hackintosh only work in real Mac. Not test on Unsuported Mac
 - Working = Beta 2, Beta 3 on Hackintosh and real Mac
 
+## Working SIP disable on Beta 3
+- To using relase V3 SIP Security must be disable
+
 - Release Update 04 July 2020 More permision fix
 
 #### Drivers for Realtek 802.11n and 802.11ac USB Wi-Fi adapters 
@@ -415,7 +418,7 @@
 
 ### NOTE: this program is not responsible for any damage or machine that does not boot anymore.
 
-## SIP enable for the demonstration. Working also SIP disable
+
 - See my new video on macOS Big Sur
 ## Follow every steps in the Video ⬇︎
 [![Modular Image Creation](https://i87.servimg.com/u/f87/17/99/48/98/68747410.png)](https://youtu.be/AmKPjiEpEdU)
