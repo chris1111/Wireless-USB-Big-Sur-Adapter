@@ -4,6 +4,7 @@
 ### Support macOS Big Sur 11 Only! (DO NOT USE ON OTHER OS's)
 - Not working = Beta 1 on Hackintosh only work in real Mac. Not test on Unsuported Mac
 - Working = Beta 2, Beta 3 on Hackintosh and real Mac
+- For Hackintosh its better to using this ➢[Wireless-USB-OC-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) ※ ※ ※
 
 ## Working SIP disable on Beta 3
 - To using relase V3 SIP Security must be disable
