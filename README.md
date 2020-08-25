@@ -9,7 +9,7 @@
 ## Working SIP disable on Beta 3
 - To using relase V3 SIP Security must be disable
 
-- Release Update 24 July 2020 fix for Beta 3
+- Update 24 August 2020 Release V4 New Drivers and Utility
 
 #### Drivers for Realtek 802.11n and 802.11ac USB Wi-Fi adapters 
 
@@ -440,4 +440,5 @@ The system is required to reboot after the driver is installed, so please close 
     - 4. From the "Configure" list, select the correct adapter and configure it.
     - 5. Configure the settings.
     
+#### Download latest Release V4 [➤ Wireless USB Big Sur Adapter-V4.pkg ](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V4)
 #### Download latest Release V3 [➤ Wireless USB Big Sur Adapter-V3.pkg ](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V3)
