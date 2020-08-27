@@ -442,4 +442,4 @@ The system is required to reboot after the driver is installed, so please close 
     - 5. Configure the settings.
     
 #### Download latest Release V5 [➤ Wireless USB Big Sur Adapter-V5.pkg ](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V5)
-#### Download Release V3 [➤ Wireless USB Big Sur Adapter-V3.pkg ](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V3)
+
