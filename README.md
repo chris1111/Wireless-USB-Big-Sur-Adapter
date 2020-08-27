@@ -3,12 +3,13 @@
 ### Welcome to Wireless USB Big Sur Adapter
 ### Support macOS Big Sur 11 Only! (DO NOT USE ON OTHER OS's)
 - Not working = Beta 1 on Hackintosh only work in real Mac. Not test on Unsuported Mac
-- Working = Beta 2, 3, 4 on Hackintosh and real Mac
+- Working = Beta 2, 3, 4, 5 on Hackintosh and real Mac
 - For Hackintosh its better to using this ➢[Wireless-USB-OC-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) ※ ※ ※
 
-## Working SIP disable on Beta 3
-- To using relase V3 SIP Security must be disable
+## Working SIP disable on Beta 3, 4, 5
+- To using relase V5 SIP Security must be disable
 
+- Update 27 August 2020 Release V5/ Remove RtWlanDisk.kext from the program
 - Update 24 August 2020 Release V4 New Drivers and Utility
 
 #### Drivers for Realtek 802.11n and 802.11ac USB Wi-Fi adapters 
@@ -440,5 +441,5 @@ The system is required to reboot after the driver is installed, so please close 
     - 4. From the "Configure" list, select the correct adapter and configure it.
     - 5. Configure the settings.
     
-#### Download latest Release V4 [➤ Wireless USB Big Sur Adapter-V4.pkg ](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V4)
+#### Download latest Release V5 [➤ Wireless USB Big Sur Adapter-V5.pkg ](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V5)
 #### Download Release V3 [➤ Wireless USB Big Sur Adapter-V3.pkg ](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V3)
