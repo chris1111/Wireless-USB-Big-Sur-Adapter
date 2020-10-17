@@ -22,6 +22,7 @@
 - Archer T2U NANO
 - Archer T3U
 - Archer T2U MINI V3
+- Archer T2U Plus
 - ArcherT4U V3
 - Archer T9UH V2
 - ASUS USB AC68
