@@ -21,6 +21,7 @@
 #### Known Working and testing adapter 
 - Archer T2U NANO
 - Archer T3U
+- Archer T3U Plus
 - Archer T2U MINI V3
 - Archer T2U Plus
 - ArcherT4U V3
