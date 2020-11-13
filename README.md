@@ -2,8 +2,7 @@
 
 ### Welcome to Wireless USB Big Sur Adapter
 ### Support macOS Big Sur 11 Only! (DO NOT USE ON OTHER OS's)
-- Not working = Beta 1 on Hackintosh only work in real Mac. Not test on Unsuported Mac
-- Working = Beta 2, 3, 4, 5 on Hackintosh and real Mac
+
 - For Hackintosh its better to using this ➢[Wireless-USB-OC-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) ※ ※ ※
 
 ### Work SIP disable on any macOS Big Sur version
