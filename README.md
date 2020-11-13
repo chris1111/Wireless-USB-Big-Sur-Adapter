@@ -6,7 +6,7 @@
 - Working = Beta 2, 3, 4, 5 on Hackintosh and real Mac
 - For Hackintosh its better to using this ➢[Wireless-USB-OC-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) ※ ※ ※
 
-### Working SIP disable on any macOS Big Sur version
+### Work SIP disable on any macOS Big Sur version
 
 - To using relase V5 SIP Security must be disable
 
