@@ -11,8 +11,8 @@
 
 - To using relase V5 SIP Security must be disable
 
-- Update 27 August 2020 Release V5/ Remove RtWlanDisk.kext from the program
-- Update 24 August 2020 Release V4 New Drivers and Utility
+- Update 25 Nov 2020 Using a blue wifi icon temporarily
+
 
 #### Drivers for Realtek 802.11n and 802.11ac USB Wi-Fi adapters 
 
@@ -446,5 +446,5 @@ The system is required to reboot after the driver is installed, so please close 
     - 4. From the "Configure" list, select the correct adapter and configure it.
     - 5. Configure the settings.
     
-#### Download latest Release V5 [➤ Wireless USB Big Sur Adapter-V5.pkg ](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V5)
+#### Download latest Release V6 [➤ Wireless USB Big Sur Adapter-V6.pkg ](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V6)
 
