@@ -8,8 +8,8 @@
 
 
 ### Work SIP disable on any macOS Big Sur version
-
 - To using any relase SIP Security must be disable
+## It seems that it does not work on Mac M1 Apple chip, working only for Mac Intel.
 
 - Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 ![Capture d’écran, Light](https://user-images.githubusercontent.com/6248794/100558078-c7896000-327a-11eb-9f28-d81df4c79e24.png)
