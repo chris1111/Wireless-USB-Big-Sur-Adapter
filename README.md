@@ -1,7 +1,7 @@
 # Wireless USB Big Sur Adapter
 
 ### Welcome to Wireless USB Big Sur Adapter
-### Support macOS Big Sur 11 Only! (DO NOT USE ON OTHER OS's)
+### Support macOS Monterey 12 - macOS Big Sur 11 Only! (DO NOT USE ON OTHER OS's)
 
 - For Hackintosh with OpenCore its better to using this ➢[Wireless-USB-OC-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) ※ ※ ※
 - For Hackintosh with Clover its better to using this ➢[WirelessAdapterCloverBigSur](https://github.com/chris1111/WirelessAdapterCloverBigSur) ※ ※ ※
