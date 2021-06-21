@@ -8,7 +8,7 @@
 
 
 ### Work SIP disable on any macOS Big Sur version
-- To using any relase SIP Security must be disable
+- To using any relase SIP Security must be disable! (Fully disable) - csrutil disable) - csrutil authenticated-root disable
 ## It seems that it does not work on Mac M1 Apple chip, working only for Mac Intel.
 
 - Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
