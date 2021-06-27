@@ -9,7 +9,7 @@
 
 ### Work SIP disable on any macOS Big Sur version 
 ### To using any relase SIP Security must be disable! (Fully disable) 
-- csrutil disable csrutil authenticated-root disable
+- csrutil disable 
 
 ## It seems that it does not work on Mac M1 Apple chip, working only for Mac Intel.
 
