@@ -9,7 +9,9 @@
 
 ### Work SIP disable on any macOS Big Sur version 
 ### To using any relase SIP Security must be disable! (Fully disable) 
-- csrutil disable 
+- csrutil disable
+
+## IMPORTANT SIP SECURITY FOLLOW THIS ➤ [SIP Security](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/discussions/115)
 
 ## It seems that it does not work on Mac M1 Apple chip, working only for Mac Intel.
 
