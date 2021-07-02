@@ -478,4 +478,4 @@ The system is required to reboot after the driver is installed, so please close 
 
 - Download ➤ [WIFI Speed Test.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/6754911/WIFI.Speed.Test.zip)
 
-![Screen Shot ](https://user-images.githubusercontent.com/6248794/124282911-587a2f80-db19-11eb-9915-905760cc9d2d.png)
+![Screen Shot ](https://user-images.githubusercontent.com/6248794/124283398-db9b8580-db19-11eb-87db-56251f29a5a5.png)
