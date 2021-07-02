@@ -475,3 +475,7 @@ The system is required to reboot after the driver is installed, so please close 
 #### Download latest Release V7 [➤ Wireless USB Big Sur Adapter-V7.pkg ](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V7)
 
 - [StatusBar IconSet replacement.zip](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter/files/6754500/StatusBar.IconSet.zip)
+
+- Download ➤ [WIFI Speed Test.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/6754911/WIFI.Speed.Test.zip)
+
+![Screen Shot ](https://user-images.githubusercontent.com/6248794/124282911-587a2f80-db19-11eb-9915-905760cc9d2d.png)
