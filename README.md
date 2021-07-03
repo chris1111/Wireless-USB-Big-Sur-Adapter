@@ -50,7 +50,7 @@
 - EDIMAX N300
 - EDIMAX EW-7811Un (N150)
 - EDUP EP-AC1689
-- Linksys WUSB6300
+- Linksys WUSB6300 V2 [Special Program Adapter-V-7.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/6759026/Wireless.USB.Big.Sur.Adapter-V-7.zip)
 - Linksys WUSB6400M
 - Netgear A7000
 - Sitecom WLA7100
