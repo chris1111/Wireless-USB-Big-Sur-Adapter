@@ -16,7 +16,7 @@
 
 ## It seems that it does not work on Mac M1 Apple chip, working only for Mac Intel.
 
-### Latest Update 26 july 2021. Check box Auto start
+### Latest Update 30 july 2021 . Drivers and Utility
 - Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 ![Capture d’écran, Light](https://user-images.githubusercontent.com/6248794/100558078-c7896000-327a-11eb-9f28-d81df4c79e24.png)
 ![Capture d’écran, dark](https://user-images.githubusercontent.com/6248794/100558082-cb1ce700-327a-11eb-9a53-9c505b2432c2.png)
@@ -474,7 +474,7 @@ The system is required to reboot after the driver is installed, so please close 
     - 4. From the "Configure" list, select the correct adapter and configure it.
     - 5. Configure the settings.
     
-#### Download latest Release V8 [➤ Wireless USB Big Sur Adapter-V8.pkg ](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V8)
+#### Download latest Release V9 [➤ Wireless USB Big Sur Adapter-V8.pkg ](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V9)
 
 - [StatusBar IconSet replacement.zip](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter/files/6754500/StatusBar.IconSet.zip)
 
