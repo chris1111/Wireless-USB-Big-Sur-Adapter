@@ -456,9 +456,9 @@
 
 ### NOTE: this program is not responsible for any damage or machine that does not boot anymore.
 
-
 - See my new video on macOS Big Sur
-## Follow every steps in the Video ⬇︎
+## Follow every steps in the Video ⬇︎ - See new fonction SIP Checker
+![SIP Status](https://user-images.githubusercontent.com/6248794/129466287-1ecf2fe2-134e-4863-9ec5-50b54e3c7092.png)
 [![Modular Image Creation](https://i87.servimg.com/u/f87/17/99/48/98/68747410.png)](https://youtu.be/AmKPjiEpEdU)
 
 - See video after Reboot for connect
