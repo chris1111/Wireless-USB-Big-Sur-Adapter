@@ -460,8 +460,8 @@
 ## Follow every steps in the Video ⬇︎ 
 [![Modular Image Creation](https://i87.servimg.com/u/f87/17/99/48/98/68747410.png)](https://youtu.be/YqZAy8jntow)
 
-- See video if SIP is not disable
-## Follow every steps in the Video ⬇︎
+
+## video if SIP is not disable ⬇︎
 [![Modular Image Creation](https://i87.servimg.com/u/f87/17/99/48/98/68747410.png)](https://youtu.be/lA1V6dmsq24)
 
 
