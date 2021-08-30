@@ -32,7 +32,7 @@
 
 #### Known Working and testing adapter 
 - Alfa AWUS036AC
-- Alfa AWUS036ACH ☞ [Special Program here](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/issues/119#issuecomment-871798789)
+- Alfa AWUS036ACH
 - Archer T2U NANO, MINI, AC600
 - Archer T3U
 - Archer T3U Plus
@@ -54,19 +54,16 @@
 - EDIMAX N300
 - EDIMAX EW-7811Un (N150)
 - EDUP EP-AC1689
-- Linksys WUSB6300 V2 ☞ [Special Program Adapter-V-7.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/6759026/Wireless.USB.Big.Sur.Adapter-V-7.zip)
+- Linksys WUSB6300 V2 
 - Linksys WUSB6400M
 - Netgear A7000
 - Sitecom WLA7100
-- TL-WN823Nv3
-- TL-WN823Nv2
+- TL-WN823Nv2/v3
 - TL-WN725Nv3
-- TL-WN723Nv3
-- TL-WN723Nv2
-- TL-WN722Nv3
-- TL-WN722Nv2
+- TL-WN723Nv2/v3
+- TL-WN722Nv2/v3
 - TL-WN821Nv6
-- TL-WN822Nv5
+- TL-WN822Nv4/v5
 - TENDA W311-MINI
 - TRENDnet N150 Micro
 - TRENDnet TEW-908UB
