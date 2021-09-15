@@ -474,7 +474,7 @@ The system is required to reboot after the driver is installed, so please close 
     - 4. From the "Configure" list, select the correct adapter and configure it.
     - 5. Configure the settings.
     
-#### Download latest Release V11 [➤ Wireless USB Big Sur Adapter-V10](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V11)
+#### Download latest Release V11 [➤ Wireless USB Big Sur Adapter-V11](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V11)
 
 - [StatusBar IconSet replacement.zip](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter/files/6754500/StatusBar.IconSet.zip)
 
