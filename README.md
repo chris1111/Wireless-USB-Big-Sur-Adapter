@@ -16,7 +16,9 @@
 
 ## It seems that it does not work on Mac M1 Apple chip, working only for Mac Intel.
 
-### Latest Update 30 july 2021 . Drivers and Utility
+### Latest Update 15 Sept 2021 Release V11 adapt for latest macOS Big Sur 11
+- Update 14 august 2021 . Check SIP status
+- Update 30 july 2021 . Drivers and Utility
 - Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 ![Capture d’écran, Light](https://user-images.githubusercontent.com/6248794/100558078-c7896000-327a-11eb-9f28-d81df4c79e24.png)
 ![Capture d’écran, dark](https://user-images.githubusercontent.com/6248794/100558082-cb1ce700-327a-11eb-9a53-9c505b2432c2.png)
@@ -31,7 +33,7 @@
 
 #### Known Working and testing adapter 
 - Alfa AWUS036AC
-- Alfa AWUS036ACH ☞ [Special Program here](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/issues/119#issuecomment-871798789)
+- Alfa AWUS036ACH
 - Archer T2U NANO, MINI, AC600
 - Archer T3U
 - Archer T3U Plus
@@ -53,23 +55,22 @@
 - EDIMAX N300
 - EDIMAX EW-7811Un (N150)
 - EDUP EP-AC1689
-- Linksys WUSB6300 V2 ☞ [Special Program Adapter-V-7.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/6759026/Wireless.USB.Big.Sur.Adapter-V-7.zip)
+- Fenvi AC1300 (RTL8812bu)
+- Linksys WUSB6300 V2 
 - Linksys WUSB6400M
 - Netgear A7000
 - Sitecom WLA7100
-- TL-WN823Nv3
-- TL-WN823Nv2
+- TL-WN823Nv2/v3
 - TL-WN725Nv3
-- TL-WN723Nv3
-- TL-WN723Nv2
-- TL-WN722Nv3
-- TL-WN722Nv2
+- TL-WN723Nv2/v3
+- TL-WN722Nv2/v3
 - TL-WN821Nv6
-- TL-WN822Nv5
+- TL-WN822Nv4/v5
 - TENDA W311-MINI
 - TRENDnet N150 Micro
 - TRENDnet TEW-808UBM
 - TRENDnet TEW-908UB
+- YUNCLOUD Realtek (RTL8814AU)
 - ZAPO W58L (RTL881lAU)
 - If you have a non listing working adapter please report it here ☞ [Report working adapter](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter/discussions)
 
@@ -456,14 +457,13 @@
 
 ### NOTE: this program is not responsible for any damage or machine that does not boot anymore.
 
+- See video on macOS Monterey 12
+## Follow every steps in the Video ⬇︎ 
+[![Modular Image Creation](https://i87.servimg.com/u/f87/17/99/48/98/68747410.png)](https://youtu.be/YqZAy8jntow)
 
-- See my new video on macOS Big Sur
-## Follow every steps in the Video ⬇︎
-[![Modular Image Creation](https://i87.servimg.com/u/f87/17/99/48/98/68747410.png)](https://youtu.be/AmKPjiEpEdU)
 
-- See video after Reboot for connect
-## Follow every steps in the Video ⬇︎
-[![Modular Image Creation](https://i87.servimg.com/u/f87/17/99/48/98/68747410.png)](https://youtu.be/ApBxNUeE1Ns)
+## video if SIP is not disable ⬇︎
+[![Modular Image Creation](https://i87.servimg.com/u/f87/17/99/48/98/68747410.png)](https://youtu.be/lA1V6dmsq24)
 
 
 This driver runs from macOS Big Sur 10.16
@@ -476,7 +476,7 @@ The system is required to reboot after the driver is installed, so please close 
     - 4. From the "Configure" list, select the correct adapter and configure it.
     - 5. Configure the settings.
     
-#### Download latest Release V9 [➤ Wireless USB Big Sur Adapter-V9.pkg ](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V9)
+#### Download latest Release V11 [➤ Wireless USB Big Sur Adapter-V11](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V11)
 
 - [StatusBar IconSet replacement.zip](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter/files/6754500/StatusBar.IconSet.zip)
 
