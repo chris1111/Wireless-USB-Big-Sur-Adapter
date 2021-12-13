@@ -16,7 +16,8 @@
 
 ## It seems that it does not work on Mac M1 Apple chip, working only for Mac Intel.
 
-### Latest Update 15 Sept 2021 Release V11 adapt for latest macOS Big Sur 11
+### Latest Update 13 Dec 2021 support page.html inside the program.
+- Update 15 Sept 2021 Release V11 adapt for latest macOS Big Sur 11
 - Update 14 august 2021 . Check SIP status
 - Update 30 july 2021 . Drivers and Utility
 - Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
@@ -478,7 +479,7 @@ The system is required to reboot after the driver is installed, so please close 
     - 4. From the "Configure" list, select the correct adapter and configure it.
     - 5. Configure the settings.
     
-#### Download latest Release V11 [➤ Wireless USB Big Sur Adapter-V11](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V11)
+#### Download latest Release V12 [➤ Wireless USB Big Sur Adapter-V12](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V12)
 
 - [StatusBar IconSet replacement.zip](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter/files/6754500/StatusBar.IconSet.zip)
 
