@@ -14,6 +14,8 @@
 
 ## IMPORTANT SIP SECURITY FOLLOW THIS ➤ [SIP Security](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/discussions/115)
 
+## NEW SIP SECURITY ENABLE YES ➤ [SIP Security Enable Yes](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/discussions/159)
+
 ## It seems that it does not work on Mac M1 Apple chip, working only for Mac Intel.
 
 ### Latest Update 14 Dec 2021 StatusBarApp open after reboot
