@@ -47,18 +47,6 @@ Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 </details>
 
 
-Update 31 Dec 2021 remove spam uninstall script
-- Update 14 Dec 2021 StatusBarApp open after reboot
-- Update 13 Dec 2021 support page.html inside the program.
-- Update 15 Sept 2021 Release V11 adapt for latest macOS Big Sur 11
-- Update 14 august 2021 . Check SIP status
-- Update 30 july 2021 . Drivers and Utility
-- Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
-![Capture d’écran, Light](https://user-images.githubusercontent.com/6248794/100558078-c7896000-327a-11eb-9f28-d81df4c79e24.png)
-![Capture d’écran, dark](https://user-images.githubusercontent.com/6248794/100558082-cb1ce700-327a-11eb-9a53-9c505b2432c2.png)
-
-
-
 #### Drivers for Realtek 802.11n and 802.11ac USB Wi-Fi adapters 
 
 #### Packages for macOS (Real Mac) Working on Hackintosh PC or Laptop
