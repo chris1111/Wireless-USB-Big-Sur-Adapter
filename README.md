@@ -53,7 +53,7 @@ Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 - Credit: ➣ [Realtek](https://www.realtek.com/en/)
 
 
-#### : ⬇︎ :  Known Working and testing adapter
+#### ⬇︎ :  Known Working and testing adapter
 - Alfa AWUS036AC
 - Alfa AWUS036ACH
 - Archer T2U NANO, MINI, AC600
