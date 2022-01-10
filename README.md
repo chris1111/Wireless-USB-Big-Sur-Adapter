@@ -91,6 +91,7 @@ Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 - TL-WN821Nv6
 - TL-WN822Nv4/v5
 - TENDA W311-MINI
+- Tenda U3 Mini
 - TRENDnet N150 Micro
 - TRENDnet TEW-808UBM
 - TRENDnet TEW-908UB
