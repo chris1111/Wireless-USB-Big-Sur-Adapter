@@ -417,6 +417,8 @@ Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 - Sitecom_WLA7100_8812AU
 
 - Sitecom_WLA8100_8814AU
+	
+- Tenda U3 Mini
 
 - TPLink-Archer_T2U_NANO
 
