@@ -82,6 +82,7 @@ Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 - Linksys WUSB6300 V2 
 - Linksys WUSB6400M
 - Netgear A7000
+- Netis WF2120 N Nano USB
 - Plexgear AC1200
 - Sitecom WLA7100
 - TL-WN823Nv2/v3
