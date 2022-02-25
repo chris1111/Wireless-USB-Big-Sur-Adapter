@@ -65,6 +65,7 @@ Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 - Archer T9UH V2
 - ASUS USB AC68
 - ASUS USB-N13
+- ASUS USB Nano-AC53
 - COMFAST CF-811AC
 - COMFAST CF-812AC
 - Cudy WU1300S
