@@ -18,11 +18,14 @@
 
 ## It seems that it does not work on Mac M1 Apple chip, working only for Mac Intel.
 
-### Latest Update 08 Jan 2022 Open StatusBarApp before reboot
+### Latest Update 01 March 2022 Add Portuguese language credit : @erikadeolima
+
 ## List Update: ⬇︎
 <details> 
   <summary>View list Update</summary>
-
+	
+08 Jan 2022 Open StatusBarApp before reboot
+	
 Update 31 Dec 2021 remove spam uninstall script
 	
 Update 14 Dec 2021 support page.html inside the program, StatusBarApp open after reboot
