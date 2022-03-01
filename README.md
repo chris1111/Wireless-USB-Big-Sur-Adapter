@@ -18,7 +18,7 @@
 
 ## It seems that it does not work on Mac M1 Apple chip, working only for Mac Intel.
 
-### Latest Update 01 March 2022 Add Portuguese language credit : @erikadeolima
+### Latest Update 01 March 2022 Add Portuguese language
 
 ## List Update: ⬇︎
 <details> 
