@@ -71,6 +71,7 @@ Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 - ASUS USB Nano-AC53
 - COMFAST CF-811AC
 - COMFAST CF-812AC
+- Comfast CF-WU810N
 - Cudy WU1300S
 - Cudy WU700
 - DLink DWA-121 N150
