@@ -8,7 +8,7 @@
 
 
 ### Work SIP disable on any macOS Big Sur version 
-### To using any relase SIP Security must be disable! (Fully disable) 
+### To using any release SIP Security must be disable! (Fully disable) 
 - csrutil disable
 - ( 🚫   It does not work on Mediatek adapters)
 
