@@ -10,7 +10,7 @@
 ### Work SIP disable on any macOS Big Sur version 
 ### To using any release SIP Security must be disable! (Fully disable) 
 - csrutil disable
-- ( 🚫   It does not work on Mediatek adapters)
+- ( 🚫  It does not work on [Mediatek](https://github.com/chris1111/D-LinkUtility-Package) adapters)
 
 ## IMPORTANT SIP SECURITY FOLLOW THIS ➤ [SIP Security](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/discussions/115)
 
