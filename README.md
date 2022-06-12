@@ -18,13 +18,16 @@
 
 ## It seems that it does not work on Mac M1 Apple chip, working only for Mac Intel.
 
-### Latest Update 01 March 2022 Add Portuguese language
+### Latest Update 12 june 2022 Support macOS Ventura 13
+
 
 ## List Update: ⬇︎
 <details> 
   <summary>View list Update</summary>
 	
-08 Jan 2022 Open StatusBarApp before reboot
+Update 01 March 2022 Add Portuguese language
+
+Update 08 Jan 2022 Open StatusBarApp before reboot
 	
 Update 31 Dec 2021 remove spam uninstall script
 	
