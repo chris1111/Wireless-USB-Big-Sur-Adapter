@@ -89,6 +89,7 @@ Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 - EDIMAX EW-7811Un (N150)
 - EDUP EP-AC1689
 - Fenvi AC1300 (RTL8812bu)
+- Foktech AC600 Nano
 - Jensen Eagle 100-AC
 - Linksys WUSB6300 V2 
 - Linksys WUSB6400M
