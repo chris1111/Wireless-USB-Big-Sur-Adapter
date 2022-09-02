@@ -2,6 +2,7 @@
 
 ### Welcome to Wireless USB Big Sur Adapter
 ### Support macOS Ventura 13 - macOS Monterey 12 - macOS Big Sur 11 Only! (DO NOT USE ON OTHER OS's)
+- There is no source for this project, All wifi companies have abandoned it as well as Realtek the main builder.
 
 - For Hackintosh with OpenCore its better to using this ➢[Wireless-USB-OC-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) 
 - For Clover ➢[WirelessAdapterCloverBigSur](https://github.com/chris1111/WirelessAdapterCloverBigSur) 
