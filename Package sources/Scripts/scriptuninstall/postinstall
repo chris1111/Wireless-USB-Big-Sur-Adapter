@@ -1,0 +1,37 @@
+#!/bin/bash
+# By chris1111
+#
+
+echo "==============================================="
+echo "Post Post-Install Script"
+echo "==============================================="
+
+DEST_VOL="${3}"
+
+echo "Removing Driver..."
+
+
+
+if [ -d "${3}/Library/Extensions/RtWlanU1827.kext" ]; then
+	rm -rf "${3}/Library/Extensions/RtWlanU1827.kext"
+fi
+
+if [ -d "${3}/Library/Extensions/RtWlanU.kext" ]; then
+	rm -rf "${3}/Library/Extensions/RtWlanU.kext"
+fi
+
+if [ -d "${3}/Library/Extensions/RtWlanDisk.kext" ]; then
+	rm -rf "${3}/Library/Extensions/RtWlanDisk.kext"
+fi
+
+
+
+touch "${3}/Library/Extensions/"
+
+
+
+exit 0
+
+
+
+		

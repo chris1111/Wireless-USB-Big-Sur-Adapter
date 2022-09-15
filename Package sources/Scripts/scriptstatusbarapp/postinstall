@@ -1,0 +1,62 @@
+#!/bin/sh
+# By chris1111
+#
+
+. /etc/rc.common
+
+echo "PostInstall_UI.command"
+Sleep 2
+ditto -x -k --sequesterRsrc --rsrc /Private/tmp/StatusBarApp.zip "/Library/Application Support/WLAN/"
+cp -rp /Private/tmp/RtWlanHelper "/Library/Application Support/WLAN/"
+rm -rf /Private/tmp/StatusBarApp.zip
+rm -rf /Private/tmp/RtWlanHelper
+Sleep 1
+
+
+#Filename of Application.
+APP="StatusBarApp"
+HELPER="RtWlanHelper"
+INF_NAME="netrtwlanu.inf"
+
+#APP location.
+ROOT_PATH="/Library/Application Support/WLAN"
+AUX_PATH="com.realtek.utility.wifi"
+UTILITY_SOCK_NAME="/var/tmp/com.realtek.utility.statusbar.socket"
+
+
+sudo chmod -R 777 "$ROOT_PATH/$APP.app"
+sudo chmod -R 777 "$ROOT_PATH/$AUX_PATH/"
+sleep 1
+sudo chown -R root:wheel "$ROOT_PATH/$APP.app"
+sudo chown -R root:wheel "$ROOT_PATH/$AUX_PATH/$HELPER"
+chown -R root:wheel /Library/LaunchAgents/Wlan.Software.plist
+sleep 1
+chmod -R 555 /Library/LaunchAgents/Wlan.Software.plist
+
+
+# Load the new LaunchAgent.
+/bin/launchctl unload /Library/LaunchAgents/Wlan.Software.plist
+
+#/bin/launchctl load /Library/LaunchAgents/Wlan.Software.plist
+
+# chmod 777 is not work.
+# [MACOS-15]
+chmod -R 777 $UTILITY_SOCK_NAME
+
+chown -R root:wheel /Library/LaunchDaemons/Wlan.SoftwareDaemon.plist
+sleep 1
+chmod -R 555 /Library/LaunchDaemons/Wlan.SoftwareDaemon.plist
+
+
+# Load the new LaunchDaemons.
+/bin/launchctl unload /Library/LaunchDaemons/Wlan.SoftwareDaemon.plist
+
+/bin/launchctl load /Library/LaunchDaemons/Wlan.SoftwareDaemon.plist
+
+osascript <<EOD
+delay 2
+tell application "Finder" to open POSIX file "/Library/Application Support/WLAN/StatusBarApp.app"
+EOD
+Sleep 2
+echo "PostInstall_UI Complete."
+

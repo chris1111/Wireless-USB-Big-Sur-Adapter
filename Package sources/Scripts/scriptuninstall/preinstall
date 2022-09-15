@@ -1,0 +1,139 @@
+#!/bin/sh
+# By chris1111
+# Uninstall Wireless USB Adapter
+
+. /etc/rc.common
+
+
+
+echo "Phase: Terminate Utility ..."
+killall -c Wireless-AC\ Network\ Utility
+killall -c Wireless\ Network\ Utility
+killall -c TP-LINK\ Wireless\ Configuration\ Utility
+killall -c BearExtender
+killall -c wpa_supplicant
+killall -c StatusBarApp
+sleep 2
+
+echo "Phase: Remove Utility Related …"
+	rm -rf /Library/LaunchAgents/Wlan.Software.plist
+	rm -rf /Library/LaunchDaemons/Wlan.Software*
+	killall -c StatusBarApp
+	rm -rf /Library/Application\ Support/WLAN
+	rm -rf ~/Library/Preferences/com.realtek.utility.wifi.plist
+	rm -rf ~/Library/Preferences/com.realtek.utility.wifi11n.plist
+	rm -rf ~/Library/Preferences/StatusBarApp.plist
+	rm -rf ~/Library/Preferences/com.realtek.utility.statusbar.plist
+
+
+echo "Phase: Remove Install Log .."
+rm -rf /private/var/db/receipts/com.realtek.*
+rm -rf /private/var/db/receipts/com.Wlan.*.*.pkg.bom
+rm -rf /private/var/db/receipts/com.Wlan.*.*.pkg.plist
+rm -rf /private/var/db/receipts/com.wlan.*.*.pkg.bom
+rm -rf /private/var/db/receipts/com.wlan.*.*.pkg.plist
+rm -rf /private/var/db/receipts/com.Wireless*.pkg.bom
+rm -rf /private/var/db/receipts/com.Wireless*.pkg.plist
+rm -rf /private/var/db/receipts/com.*Utility*.pkg.*
+rm -rf /private/var/db/receipts/com.*StatusBarApp.pkg.*
+rm -rf /private/var/db/receipts/com.*StartUp.pkg.*
+rm -rf /private/var/db/receipts/com.*Driver*.pkg.*
+rm -rf /private/var/db/receipts/com.Wlan.wirelessUsbAdapterDriver.postflight.pkg.*
+
+
+
+echo "Phase: System Information"
+# Usage: Plistbuddy [-cxh] <file.plist>
+#    -c "<command>" execute command, otherwise run in interactive mode
+#
+#
+# A.plist
+# Dict{
+# 	KeyA=ValueA
+#	KeyB=ValueB
+#	KeyC=ValueC
+# }
+# /usr/libexec/Plistbuddy -c "Print" A.plist (print A.plist content)
+# /usr/libexec/Plistbuddy -c "Print KeyA" A.plist (get ValueA)
+# /usr/libexec/Plistbuddy -c "merge A.plist" B.plist (merge A.plist to B)
+#
+# /usr/libexec/Plistbuddy -c "Print Sets" preferences.plist 
+# (Get Sets value: UUID)
+#
+
+# grep: print lines matching a pattern
+# 	-B NUM, --before-context=NUM
+#        Print NUM lines of leading context before matching lines.  
+#	 Places a line containing -- between  contiguous groups of matches.
+#
+
+_PREFERENCE="/Library/Preferences/SystemConfiguration/preferences.plist"
+_NETWORKINTERFACES="/Library/Preferences/SystemConfiguration/NetworkInterfaces.plist"
+
+#_PREFERENCE="/Users/MAC/Airport_Style/Utility_Project/Reference/10.6/preferences.plist"
+#_NETWORKINTERFACES="/Users/MAC/Airport_Style/Utility_Project/Reference/10.6/NetworkInterfaces.plist"
+
+# Phase 1: Get CurrentSet UUID
+autoUuid=`/usr/libexec/Plistbuddy -c "Print :Sets" $_PREFERENCE | grep -B1 -m1 Automatic | grep Dict | awk '{ print $1 }'`
+# FA49A453-0318-4E12-A7D3-9AD011E02B3A
+echo autoUuid =$autoUuid
+
+# Phase 2: Get Realtek Interfaces Array
+
+# use Plistbuddy open plist, the field order is different from TextEdit or Property List Editor
+# Active->IOPathMatch->IOMACAddress->IOInterfaceUnit->IOBuiltin->SCNetworkInterfaceType->IOInterfaceType->BSD Name->SCNetworkInterfaceInfo
+# for debug
+RtWlanArray=`/usr/libexec/Plistbuddy -c "Print :Interfaces" $_NETWORKINTERFACES | grep -a -A7 'RtWlanU\|RTL8812AU\|RTL8192CU\|RTL8188EU\|RTL8192EU' | grep -a "BSD Name"| awk '{ print $4 }'`
+echo RtWlanArray =$RtWlanArray
+#RtWlanArray =en6 en7 en9 en10 en18 en26
+
+
+# Phase 3: Get All Services Array
+NetServicesArray=`/usr/libexec/PlistBuddy -c "Print :NetworkServices" $_PREFERENCE | egrep '[0-9A-F]{8}-([0-9A-F]{4}-){3}[0-9A-F]{12}' -o`
+echo NetServicesArray =$NetServicesArray
+
+for eNetService in $NetServicesArray
+do
+	echo eNetService =$eNetService
+	eIntf=`/usr/libexec/Plistbuddy -c "Print :NetworkServices:$eNetService" $_PREFERENCE | grep -a "DeviceName" | awk '{ print $3 }'` 
+	echo eIntf =$eIntf
+	bHit=`/usr/libexec/Plistbuddy -c "Print :Interfaces" $_NETWORKINTERFACES | grep -a -A7 'RtWlanU\|RTL8812AU\|RTL8192CU\|RTL8188EU\|RTL8192EU' | grep -a "BSD Name"| awk '{ print $4 }'| grep -aw $eIntf`
+	
+	# -z: string is null, that is, has zero length
+	# -n: string is not null
+	if [ -n "${bHit}" ]; then
+		echo bHit =$bHit
+	
+		# Phase 4: Remove NetworksServices:UUID
+		/usr/libexec/PlistBuddy -c "delete :NetworkServices:$eNetService dict" $_PREFERENCE
+
+		# Phase 5: Remove Sets:$autoUuid:Network:Service:UUID
+		/usr/libexec/PlistBuddy -c "delete :Sets:$autoUuid:Network:Service:$eNetService dict" $_PREFERENCE
+
+		# Phase 6: Remove Sets:$autoUuid:Network:Global:IPv4:ServiceOrder:UUID
+		# Because we would delete serverOrder, it must be queried every time.
+		serverOrderArray=`/usr/libexec/PlistBuddy -c "Print :Sets:$autoUuid:Network:Global:IPv4:ServiceOrder" $_PREFERENCE | grep -v "Array" | grep -v "}"`
+		echo serverOrderArray =$serverOrderArray
+
+		idx=0
+		bFind=0
+		for eServiceOrd in $serverOrderArray
+		do
+			echo eServiceOrd =$eServiceOrd
+			if [ "${eServiceOrd}" == "${eNetService}" ]; then
+				bFind=1
+				break
+			fi
+			idx=`expr $idx + 1`
+		done
+
+		if [ "${bFind}" -eq 1 ]; then
+			echo idx=$idx
+			/usr/libexec/PlistBuddy -c "delete :Sets:$autoUuid:Network:Global:IPv4:ServiceOrder:$idx" $_PREFERENCE
+		fi
+	fi
+done
+
+
+
+echo "Uninstall Complete."

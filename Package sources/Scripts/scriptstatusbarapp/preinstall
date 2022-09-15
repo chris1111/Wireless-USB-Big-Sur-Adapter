@@ -1,0 +1,23 @@
+#!/bin/sh
+# By chris1111
+#
+
+. /etc/rc.common
+
+echo "PreInstall_UI.command"
+
+
+
+killall -c StatusBarApp
+
+echo "mkdir WLAN"
+mkdir /Library/Application\ Support/WLAN
+mkdir /Library/Application\ Support/WLAN/com.realtek.utility.wifi
+
+echo "Chmod WLAN"
+chmod -R 777 /Library/Application\ Support/WLAN
+
+echo "Chown WLAN"
+chown -R root:wheel /Library/Application\ Support/WLAN
+
+echo "PreInstall_UI Complete."

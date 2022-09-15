@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-script minSpecVersion="1.000000" authoringTool="com.apple.PackageMaker" authoringToolVersion="3.0.7" authoringToolBuild="203">
+    <title>Wireless USB Big Sur Adapter-V-12</title>
+    <options customize="always" allow-external-scripts="no"/>
+    <domains enable_anywhere="true"/>
+    <background file="background" alignment="center" scaling="tofit"/>
+    <background-darkAqua file="background" alignment="center" scaling="tofit"/>
+    <welcome file="Welcome.rtfd"/>
+    <readme file="Support.rtfd"/>
+    <conclusion file="Conclusion.rtfd"/>
+    <choices-outline>
+        <line choice="choice41">
+            <line choice="choice44"/>
+        </line>
+        <line choice="choice45"/>
+    </choices-outline>
+    <choice id="choice41" title="Wireless USB Big Sur Adapter" description="Install ➔ /Library/Extensions RtWlanU1827.kext, RtWlanU.kext Install ➔ /Library/Applications Support /WLAN Install ➔ /Library/LaunchAgents /Wlan.Software.plist Install ➔ /Library/LaunchDaemons/Wlan.SoftwareDaemon.plist" start_selected="true" selected="!choices['choice45'].selected">
+        <pkg-ref id="com.109Driver.wirelessUsbBigSurAdapter.statusbarapp.pkg"/>
+        <pkg-ref id="com.109Driver.wirelessUsbBigSurAdapter.Agents.pkg"/>
+        <pkg-ref id="com.109Driver.wirelessUsbBigSurAdapter.Daemon.pkg"/>
+    </choice>
+    <choice id="choice44" title="Wireless Drivers" start_selected="true" start_visible="false">
+        <pkg-ref id="com.109Driver.wirelessUsbBigSurAdapter.Drivers.pkg"/>
+    </choice>
+    <choice id="choice45" title="Uninstall" description="Uninstall ➔ /Library/Extensions RtWlanU1827.kext, RtWlanU.kext  Uninstall ➔ /Library/Applications Support /WLAN Uninstall ➔ /Library/LaunchAgents /Wlan.Software.plist Uninstall ➔ /Library/LaunchDaemons/Wlan.SoftwareDaemon.plist" start_selected="false" selected="!choices['choice41'].selected">
+        <pkg-ref id="com.109Driver.wirelessUsbBigSurAdapter.uninstall.pkg"/>
+    </choice>
+    <pkg-ref id="com.109Driver.wirelessUsbBigSurAdapter.statusbarapp.pkg" installKBytes="7272" version="1.0" auth="Root">#statusbarapp.pkg</pkg-ref>
+    <pkg-ref id="com.109Driver.wirelessUsbBigSurAdapter.Agents.pkg" installKBytes="4" version="1.0" auth="Root">#agents.pkg</pkg-ref>
+    <pkg-ref id="com.109Driver.wirelessUsbBigSurAdapter.Daemon.pkg" installKBytes="4" version="1.0" auth="Root">#daemon.pkg</pkg-ref>
+    <pkg-ref id="com.109Driver.wirelessUsbBigSurAdapter.Drivers.pkg" installKBytes="16072" version="1.0" auth="Root">#drivers.pkg</pkg-ref>
+    <pkg-ref id="com.109Driver.wirelessUsbBigSurAdapter.uninstall.pkg" installKBytes="0" version="1.0" auth="Root">#uninstall.pkg</pkg-ref>
+</installer-script>

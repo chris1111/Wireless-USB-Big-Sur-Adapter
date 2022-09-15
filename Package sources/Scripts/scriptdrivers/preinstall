@@ -1,0 +1,123 @@
+#!/bin/sh
+# By chris1111
+#
+
+#APP location.
+APP="StatusBarApp"
+HELPER="RtWlanHelper"
+ROOT_PATH="/Library/Application Support/WLAN"
+
+. /etc/rc.common
+
+#############################################
+############### Start script ################
+#############################################
+
+
+echo "                                                                  "
+echo "PreInstall_Driver.command"
+FROM=`dirname "$0"`
+
+if [[ `/usr/bin/sw_vers -productVersion` == 10.14.5 ]]; then
+	echo spctl
+	/usr/sbin/spctl -a -vvv -t install "$PACKAGE_PATH"; 
+fi
+
+echo "Unload Driver"
+
+if [ -d "${3}/System/Library/Extensions/RtWlanU1827.kext" ]; then
+	kextunload "${3}/System/Library/Extensions/RtWlanU1827.kext"
+fi
+
+if [ -d "${3}/System/Library/Extensions/RtWlanU.kext" ]; then
+	kextunload "${3}/System/Library/Extensions/RtWlanU.kext"
+fi
+
+if [ -d "${3}/System/Library/Extensions/RtWlanDisk.kext" ]; then
+	kextunload "${3}/System/Library/Extensions/RtWlanDisk.kext"
+fi
+
+if [ -d "${3}/Library/Extensions/RtWlanU1827.kext" ]; then
+	kextunload "${3}/Library/Extensions/RtWlanU1827.kext"
+fi
+
+if [ -d "${3}/Library/Extensions/RtWlanU.kext" ]; then
+	kextunload "${3}/Library/Extensions/RtWlanU.kext"
+fi
+
+if [ -d "${3}/Library/Extensions/RtWlanDisk.kext" ]; then
+	kextunload "${3}/Library/Extensions/RtWlanDisk.kext"
+fi
+
+echo "Removing Pkg"
+rm -rf /Library/Receipts/wlan.pkg
+rm -rf /Library/Receipts/wlanAc.pkg
+rm -rf /Library/Receipts/rtl8192SU4.pkg
+rm -rf /Library/Receipts/rtl8192CU4.pkg
+rm -rf /Library/Receipts/rtl8188EU4.pkg
+rm -rf /Library/Receipts/rtl8192EU4.pkg
+rm -rf /Library/Receipts/rtl8192DU4.pkg
+rm -rf /Library/Receipts/rtl8812AU4.pkg
+rm -rf /Library/Receipts/wireless-acNetworkUtility.pkg
+rm -rf /Library/Receipts/wirelessNetworkUtility.pkg
+
+echo "Checking Preferences"
+
+_PREFERENCE="/Library/Preferences/SystemConfiguration/preferences.plist"
+_NETWORKINTERFACES="/Library/Preferences/SystemConfiguration/NetworkInterfaces.plist"
+
+# Phase 1: Get CurrentSet UUID
+autoUuid=`/usr/libexec/Plistbuddy -c "Print :Sets" $_PREFERENCE | grep -B1 -m1 Automatic | grep Dict | awk '{ print $1 }'`
+echo autoUuid =$autoUuid
+
+# Phase 2: Get All Services Array
+NetServicesArray=`/usr/libexec/PlistBuddy -c "Print :NetworkServices" $_PREFERENCE | egrep '[0-9A-F]{8}-([0-9A-F]{4}-){3}[0-9A-F]{12}' -o`
+echo NetServicesArray =$NetServicesArray
+
+for eNetService in $NetServicesArray
+do
+	echo eNetService =$eNetService
+	eIntf=`/usr/libexec/Plistbuddy -c "Print :NetworkServices:$eNetService" $_PREFERENCE | grep -a "DeviceName" | awk '{ print $3 }'` 
+	echo eIntf =$eIntf
+	bHit=`/usr/libexec/Plistbuddy -c "Print :Interfaces" $_NETWORKINTERFACES | grep -a -A7 'RtWlanU\|RTL8812AU\|RTL8192CU\|RTL8188EU\|RTL8192EU' | grep -a "BSD Name"| awk '{ print $4 }'| grep -aw $eIntf`
+	
+	# -z: string is null, that is, has zero length
+	# -n: string is not null
+	if [ -n "${bHit}" ]; then
+		echo bHit =$bHit
+		
+		# Phase 3: Check interface down : Sets:$autoUuid:Network:Service:UUID
+		bIfconfigDown=`/usr/libexec/Plistbuddy -c "Print :Sets:$autoUuid:Network:Service:$eNetService" $_PREFERENCE`
+				
+		if [ -z "${bIfconfigDown}" ]; then
+			echo bIfconfigDown=$bIfconfigDown
+
+			# Phase 4: Remove NetworksServices:UUID
+			/usr/libexec/PlistBuddy -c "delete :NetworkServices:$eNetService dict" $_PREFERENCE
+		fi
+	fi
+done
+
+
+version=$( /usr/bin/sw_vers -productVersion )
+major=$( awk -F'.' '{print $1}' <<< "${version}" )
+minor=$( awk -F'.' '{print $2}' <<< "${version}" )
+patch=$( awk -F'.' '{print $3}' <<< "${version}" )
+
+if [ "$major" -eq 10 ]; then
+	echo major =$major
+	
+	if [ "$minor" -ge 11 ]; then
+		#echo 10.11~ =$minor
+		touch /System/Extensions
+	fi
+
+	#if [ "$minor" -ge 13 ]; then
+		#echo 10.13~ =$minor
+		#spctl --master -disable
+	#fi
+fi
+
+echo "PreInstall_Driver Complete."
+
+
