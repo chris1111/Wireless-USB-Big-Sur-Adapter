@@ -93,6 +93,7 @@ Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 - FILOWA USB WiFi-RTL8812BU
 - Foktech AC600 Nano
 - Jensen Eagle 100-AC
+- Kextech MINI USB RTL8192
 - Linksys WUSB6300 V2 
 - Linksys WUSB6400M
 - Netgear A7000
