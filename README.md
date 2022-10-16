@@ -4,6 +4,8 @@
 ### Support macOS Ventura 13 - macOS Monterey 12 - macOS Big Sur 11, macOS Catalina Only! (DO NOT USE ON OTHER OS's)
 - There is no source for this project, All wifi companies have abandoned it as well as Realtek the main builder.
 
+### Download latest Release V14 [➤ Wireless USB Big Sur Adapter-V14](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V14)
+
 - For Hackintosh with OpenCore its better to using this ➢[Wireless-USB-OC-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) 
 - For Clover ➢[WirelessAdapterCloverBigSur](https://github.com/chris1111/WirelessAdapterCloverBigSur) 
 
@@ -525,13 +527,12 @@ The system is required to reboot after the driver is installed, so please close 
     - 4. From the "Configure" list, select the correct adapter and configure it.
     - 5. Configure the settings.
     
-#### Download latest Release V14 [➤ Wireless USB Big Sur Adapter-V14](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V14)
-
-- [StatusBar IconSet replacement.zip](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter/files/7834243/StatusBar.IconSet.zip)
-
-- Download ➤ [WIFI Speed Test.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/6895432/WIFI.Speed.Test.zip)
 
 ![Screen Shot ](https://user-images.githubusercontent.com/6248794/124283398-db9b8580-db19-11eb-87db-56251f29a5a5.png)
 
-- Download ➤  [Monterey WIFI Network Speed Test.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/8351329/Monterey.WIFI.Network.Speed.Test.zip) You need /usr/local/bin/python3 Installed
+- Wifi speed test 
+Download ➤ [Catalina WIFI Speed Test.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/6895432/WIFI.Speed.Test.zip)
+
+- Wifi speed test 
+Download ➤  [Monterey WIFI Network Speed Test.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/8351329/Monterey.WIFI.Network.Speed.Test.zip) You need /usr/local/bin/python3 Installed
 
