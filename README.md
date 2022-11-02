@@ -4,7 +4,7 @@
 ### Support macOS Ventura 13 - macOS Monterey 12 - macOS Big Sur 11, macOS Catalina Only! (DO NOT USE ON OTHER OS's)
 - There is no source for this project, All wifi companies have abandoned it as well as Realtek the main builder.
 
-### Download latest Release V14 [➤ Wireless USB Big Sur Adapter-V14](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V14)
+### Download latest Release V15 [➤ Wireless USB Big Sur Adapter-V15](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V15)
 
 - For Hackintosh with OpenCore its better to using this ➢[Wireless-USB-OC-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) 
 - For Clover ➢[WirelessAdapterCloverBigSur](https://github.com/chris1111/WirelessAdapterCloverBigSur) 
@@ -21,12 +21,15 @@
 
 ## It seems that it does not work on Mac M1 Apple chip, working only for Mac Intel.
 
-### Latest Update 16 Oct 2022 Adapted for latest macOS
+### Latest Update 02 Nov 2022 No more need Agents and Deamon
+
 
 
 ## List Update: ⬇︎
 <details> 
   <summary>View list Update</summary>
+
+Update 16 Oct 2022 Adapted for latest macOS  
   
 Update 12 june 2022 Support macOS Ventura 13
 	
