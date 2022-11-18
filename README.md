@@ -104,6 +104,7 @@ Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 - Kextech MINI USB RTL8192
 - Linksys WUSB6300 V2 
 - Linksys WUSB6400M
+- M-Tech UW-01 USB
 - Netgear A6100
 - Netgear A7000
 - Netis WF2120 N Nano USB
