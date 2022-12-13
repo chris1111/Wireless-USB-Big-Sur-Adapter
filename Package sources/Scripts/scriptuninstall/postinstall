@@ -24,7 +24,7 @@ if [ -d "${3}/Library/Extensions/RtWlanDisk.kext" ]; then
 	rm -rf "${3}/Library/Extensions/RtWlanDisk.kext"
 fi
 
-
+rm -rf "/Library/Application Support/WLAN"
 
 touch "${3}/Library/Extensions/"
 
