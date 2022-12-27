@@ -29,7 +29,7 @@
 
 ## List Update: ⬇︎
 <details> 
-  <summary>View list Update</summary>
+  <summary>➥ View list Update</summary>
   
 Update 13 Dec 2022 Fix Uninstall Utility  
   
@@ -132,7 +132,7 @@ Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 
 ## Support Drivers: (Adapter)
 <details> 
-  <summary>View list  </summary>
+  <summary>➥ View list  </summary>
 	
 - ASUS_USB-N10E_92CU
 
