@@ -99,7 +99,7 @@ layout: default
 
 ## Drivers: (Adapter) ⬇︎
 
-## View all adapter ➤ [Adapter List](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/blob/master/update.md)
+## View all adapter ➤ [Adapter List](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/blob/master/support.md)
 
 ### NOTE: this program is not responsible for any damage or machine that does not boot anymore.
 
