@@ -74,6 +74,7 @@ Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 #### ⬇︎ :  Known Working and testing adapter
 - Alfa AWUS036AC
 - Alfa AWUS036ACH
+- Archer T2U Plus (AC600)
 - Archer T2U NANO, MINI, AC600
 - Archer T3U
 - Archer T3U Plus
