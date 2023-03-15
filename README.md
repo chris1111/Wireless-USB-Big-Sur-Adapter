@@ -21,7 +21,7 @@
 
 ## NEW: SIP SECURITY ENABLE YES ➤ [SIP Security Enable Yes](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/discussions/159)
 
-## It seems that it does not work on Mac M1 Apple chip, working only for Mac Intel.
+## It seems that it does not work on Mac M1  M2 Apple chip, working only for Mac Intel.
 
 ### Latest Update 15 Dec 2022 Moove Helper
 
