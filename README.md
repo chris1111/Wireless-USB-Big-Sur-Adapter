@@ -85,6 +85,7 @@ Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 - ASUS USB AC68
 - ASUS USB-N13
 - ASUS USB Nano-AC53
+- BrosTrend FBA_AC3
 - COMFAST CF-811AC
 - COMFAST CF-812AC
 - Comfast CF-758F
