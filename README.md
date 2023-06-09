@@ -93,6 +93,7 @@ Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 - Cudy WU1300S
 - Cudy WU700
 - Cudy WU650
+- CXFTEOXK
 - DLink DWA-121 N150
 - DLink DWA-131
 - EDIMAX EW-7611UCB
