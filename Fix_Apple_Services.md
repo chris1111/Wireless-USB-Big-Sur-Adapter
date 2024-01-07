@@ -2,5 +2,7 @@
 - Make sur you Ethernet cable is disconnected before using this fix.
 - Discussion can be done here [iMessage and FaceTime issue](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/discussions/300?sort=new)
 
-  
-[![Modular Image Creation](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/assets/6248794/4c61432b-8fad-4fe4-a6b9-a29ab1fa477a)](https://www.youtube.com/watch?v=xPyW-DwQha8)
+[![Modular Image Creation](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/assets/6248794/4eccb0c9-d0cf-4d06-943e-4b8346155b82)](https://www.youtube.com/watch?v=xPyW-DwQha8)
+
+
+
