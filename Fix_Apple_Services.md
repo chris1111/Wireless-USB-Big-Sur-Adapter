@@ -1,4 +1,5 @@
-### Follow this Video NO-1 for a fix of Apple Services (Messages and FaceTime)
+### Follow this Video NO-1 by @thedeadfish59
+for a fix of Apple Services (Messages and FaceTime)
 - Make sur you Ethernet cable is disconnected before using this fix.
 - Discussion can be done here [iMessage and FaceTime issue](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/discussions/300?sort=new)
 - This fix also work for ➦ [Wireless-USB-OC-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) for ➦ [WirelessAdapterCloverBigSur](https://github.com/chris1111/WirelessAdapterCloverBigSur)
