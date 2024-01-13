@@ -134,6 +134,7 @@ Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 - TRENDnet N150 Micro
 - TRENDnet TEW-808UBM
 - TRENDnet TEW-908UB
+- UGreen CM448
 - YUNCLOUD Realtek (RTL8814AU)
 - ZAPO W58L (RTL881lAU)
 - Zyxel NWD6602
