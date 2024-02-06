@@ -1,5 +1,5 @@
 ### Follow this Video NO-1 by @thedeadfish59
-for a fix of Apple Services (Messages and FaceTime App Store)
+For a fix of Apple Services (Messages, FaceTime and App Store)
 - 1- Login to your Apple Acount as Ethernet before.
 - 2- Make sur you Ethernet cable is disconnected before using the Apple Service fix
 - The only thing not working is AirDrop 
@@ -11,7 +11,7 @@ for a fix of Apple Services (Messages and FaceTime App Store)
 ------------------------------------------------------
 
 ### Another Video NO-2 by chris1111
-for a fix of Apple Services (Messages and FaceTime App Store)
+For a fix of Apple Services (Messages, FaceTime and App Store)
 - 1- Login to your Apple Acount as Ethernet before.
 - 2- Make sur you Ethernet cable is disconnected before using the Apple Service fix.
 - The only thing not working is AirDrop
