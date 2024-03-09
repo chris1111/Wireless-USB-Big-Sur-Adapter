@@ -558,3 +558,5 @@ Download ➤ [Big Sur / Catalina WIFI Speed Test.zip](https://github.com/chris11
 - Wifi speed test 
 Download ➤  [Monterey WIFI Network Speed Test.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/8351329/Monterey.WIFI.Network.Speed.Test.zip) You need /usr/local/bin/python3 Installed
 
+- Wifi speed test
+Download ➤  [Sonoma Wifi Network Speed Test.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/14547858/Network.SpeedTest.zip) You need /usr/local/bin/python3 Installed
