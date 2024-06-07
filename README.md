@@ -550,7 +550,10 @@ The system is required to reboot after the driver is installed, so please close 
     - 5. Configure the settings.
     
 
-- Wifi speed test 
+- Wifi speed test
+- Since Monterey you can Run the command `networkquality`
+
+- Wifi speed test
 Download ➤ [Big Sur / Catalina WIFI Speed Test.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/6895432/WIFI.Speed.Test.zip)
 
 - Wifi speed test 
