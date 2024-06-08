@@ -114,7 +114,7 @@ layout: default
 [![Modular Image Creation](https://i87.servimg.com/u/f87/17/99/48/98/68747410.png)](https://youtu.be/lA1V6dmsq24)
 
 
-This driver runs from macOS Big Sur 10.16
+This driver runs from macOS Catalina to macOS Sonoma
 The system is required to reboot after the driver is installed, so please close all the other applications before installing this software. After the system boots up and you enter the system, please follow the following steps to configure the network:
 
 - Instructions:
@@ -124,12 +124,13 @@ The system is required to reboot after the driver is installed, so please close 
     - 4. From the "Configure" list, select the correct adapter and configure it.
     - 5. Configure the settings.
     
+- Wifi speed test
+- Since Monterey you can Run the command `networkquality`
+  
+- WIFI Speed Test Download ➤ [Big Sur / Catalina WIFI Speed Test.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/6895432/WIFI.Speed.Test.zip)
+
+- WIFI Speed Test Download ➤  [Monterey WIFI Network Speed Test.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/8351329/Monterey.WIFI.Network.Speed.Test.zip) You need /usr/local/bin/python3 Installed
+
+- Wifi speed test  Download ➤  [Sonoma Wifi Network Speed Test.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/14547858/Network.SpeedTest.zip) You need /usr/local/bin/python3 Installed
 
 ![Screen Shot ](https://user-images.githubusercontent.com/6248794/124283398-db9b8580-db19-11eb-87db-56251f29a5a5.png)
-
-- Wifi speed test 
-Download ➤ [Big Sur / Catalina WIFI Speed Test.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/6895432/WIFI.Speed.Test.zip)
-
-- Wifi speed test 
-Download ➤  [Monterey WIFI Network Speed Test.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/8351329/Monterey.WIFI.Network.Speed.Test.zip) You need /usr/local/bin/python3 Installed
-
