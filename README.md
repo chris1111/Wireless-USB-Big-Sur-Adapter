@@ -7,7 +7,7 @@
 - There is no source for this project, All wifi companies have abandoned it as well as Realtek the main builder.
 ### [Fix_Apple_Services- Messages / FaceTime](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/blob/master/Fix_Apple_Services.md)
 
-### Download latest Release V17 [➤ Wireless USB Big Sur Adapter-V17](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V17)
+### Download latest Release V18 [➤ Wireless USB Big Sur Adapter-V18](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V18)
 
 - For Hackintosh with OpenCore its better to using this ➢[Wireless-USB-OC-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) 
 - For Clover ➢[WirelessAdapterCloverBigSur](https://github.com/chris1111/WirelessAdapterCloverBigSur) 
