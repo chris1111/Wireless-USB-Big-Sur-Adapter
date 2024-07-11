@@ -29,6 +29,10 @@
 ## List Update: ⬇︎
 <details> 
   <summary>View list Update</summary>
+	
+Update 16 Jan 2024  List Support adapter in Readme
+
+Update 02 July 2023  Change Background program
 
 Update 15 Dec 2022 Moove Helper
 
