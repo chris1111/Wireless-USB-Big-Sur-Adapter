@@ -10,7 +10,7 @@ layout: default
 ### Support macOS Sequoia 15 - macOS Sonoma 14 - macOS Ventura 13 - macOS Monterey 12 - macOS Big Sur 11, macOS Catalina Only! (DO NOT USE ON OTHER OS's)
 - There is no source for this project, All wifi companies have abandoned it as well as Realtek the main builder.
 
-### Download latest Release V17 [➤ Wireless USB Big Sur Adapter-V16](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V17)
+### Download latest Release V18 [➤ Wireless USB Big Sur Adapter-V18](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V18)
 
 - For Hackintosh with OpenCore its better to using this ➢[Wireless-USB-OC-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) 
 - For Clover ➢[WirelessAdapterCloverBigSur](https://github.com/chris1111/WirelessAdapterCloverBigSur) 
