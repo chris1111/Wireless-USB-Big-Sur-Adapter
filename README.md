@@ -24,7 +24,7 @@
 
 ## It seems that it does not work on Mac M1,  M2 Apple chip, working only for Mac Intel.
 
-### Latest Update 11 Jul 2024 Change Backgound
+### Latest Update 11 Jul 2024 Update StatusBarApp, change background Package
 
 ## List Update: ⬇︎
 <details> 
