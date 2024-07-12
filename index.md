@@ -27,9 +27,7 @@ layout: default
 
 ## It seems that it does not work on Mac M1 Apple chip, working only for Mac Intel.
 
-### Latest Update 15 Dec 2022 Moove Helper
-
-
+### Latest Update 11 Jul 2024 Update StatusBarApp, change background Package
 
 ## List Update: ⬇︎
 ## View all update ➤ [Update](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/blob/master/update.md)
