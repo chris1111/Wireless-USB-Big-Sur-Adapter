@@ -561,7 +561,11 @@ The system is required to reboot after the driver is installed, so please close 
     - 5. Configure the settings.
     
 
-- Wifi speed test
+## Wifi speed tes: ⬇︎
+<details> 
+  <summary>View Wifi speed test</summary>
+
+
 - Since Monterey you can Run the command `networkquality`
 
 - Wifi speed test
@@ -574,3 +578,5 @@ Download ➤  [Monterey WIFI Network Speed Test.zip](https://github.com/chris111
 Download ➤  [Sonoma Wifi Network Speed Test.zip](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/files/14547858/Network.SpeedTest.zip) You need /usr/local/bin/python3 Installed
 
 ![Screen Shot ](https://user-images.githubusercontent.com/6248794/124283398-db9b8580-db19-11eb-87db-56251f29a5a5.png)
+
+</details>
