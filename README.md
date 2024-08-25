@@ -12,7 +12,7 @@
 - For Hackintosh with OpenCore its better to using this ➢[Wireless-USB-OC-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) 
 - For Clover ➢[WirelessAdapterCloverBigSur](https://github.com/chris1111/WirelessAdapterCloverBigSur) 
 
-
+### macOS Sequoia 15 ➤ [Disable-Gatekeeper](https://github.com/chris1111/Disable-Gatekeeper)
 ### Work SIP disable on any macOS Big Sur version 
 ### To using any release SIP Security must be disable! (Fully disable) 
 - csrutil disable
