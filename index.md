@@ -39,16 +39,18 @@ layout: default
 #### ⬇︎ :  Known Working and testing adapter
 - Alfa AWUS036AC
 - Alfa AWUS036ACH
+- Archer T2U Plus (AC600)
 - Archer T2U NANO, MINI, AC600
 - Archer T3U
 - Archer T3U Plus
 - Archer T2U MINI V3
 - Archer T2U Plus
 - ArcherT4U V1, V2, V3
-- Archer T9UH V2
+- Archer T9UH V1, V2
 - ASUS USB AC68
 - ASUS USB-N13
 - ASUS USB Nano-AC53
+- BrosTrend FBA_AC3
 - COMFAST CF-811AC
 - COMFAST CF-812AC
 - Comfast CF-758F
@@ -56,6 +58,7 @@ layout: default
 - Cudy WU1300S
 - Cudy WU700
 - Cudy WU650
+- CXFTEOXK
 - DLink DWA-121 N150
 - DLink DWA-131 E
 - DLink DWA-171 C
@@ -77,12 +80,15 @@ layout: default
 - Linksys WUSB6300 V2 
 - Linksys WUSB6400M
 - M-Tech UW-01 USB
+- Mercusys MW300UM
 - Netgear A6100
+- Netgear A6150
 - Netgear A7000
 - Netis WF2120 N Nano USB
 - Plexgear AC1200
 - Sitecom WLA7100
-- TL-WN823Nv2/v3
+- TechKey AC1200
+- TL-WN823Nv1/v2/v3/v4
 - TL-WN725Nv3
 - TL-WN723Nv2/v3
 - TL-WN722Nv2/v3
@@ -94,8 +100,11 @@ layout: default
 - TRENDnet N150 Micro
 - TRENDnet TEW-808UBM
 - TRENDnet TEW-908UB
+- UGreen CM448
 - YUNCLOUD Realtek (RTL8814AU)
 - ZAPO W58L (RTL881lAU)
+- Zyxel NWD6602
+- Zyxel NWD6605
 - If you have a non listing working adapter please report it here ☞ [Report working adapter](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter/discussions)
 
 ## Drivers: (Adapter) ⬇︎
