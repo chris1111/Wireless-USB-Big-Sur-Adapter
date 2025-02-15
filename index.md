@@ -4,6 +4,8 @@ layout: default
 
 # Wireless USB Big Sur Adapter
 
+[![pages-build-deployment](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/actions/workflows/pages/pages-build-deployment)
+
 ### Drivers for Realtek 802.11n and 802.11ac USB Wi-Fi adapters 
 
 ### Welcome to Wireless USB Big Sur Adapter
