@@ -26,15 +26,23 @@
 
 ## It seems that it does not work on Mac M1, M2, M3, M4 Apple chip, working only for Mac Intel.
 
-### Latest Update 12 Jul 2024 Use my background Package
+### Latest Update 05 Jul 2025 Support macOS Tahoe 26
 
 ## List Update: ⬇︎
 <details> 
   <summary>View list Update</summary>
 	
+Update 04 Jul 2025 Support macOS Mojave 10.14.6
+
+Update 03 Jul 2025 Use Tahoe background for the Package
+
+Update 16 Jul 2024 Change background Package
+
+Update 12 Jul 2024 Use my background Package
+
 Update 12 Jul 2024 Reduce size background Package adated for old macOS
 
-Update 12 Jul 2024 Update ButtonBox background Packag
+Update 12 Jul 2024 Update ButtonBox background Package
 
 Update 11 Jul 2024 Update StatusBarApp, change background Package
 

@@ -3,8 +3,12 @@
 <details> 
   <summary>View list Update</summary>
 	
+Update 04 Jul 2025 Support macOS Mojave 10.14.6
+Update 03 Jul 2025 Use Tahoe background for the Package
+Update 16 Jul 2024 Change background Package
+Update 12 Jul 2024 Use my background Package
 Update 12 Jul 2024 Reduce size background Package adated for old macOS
-Update 12 Jul 2024 Update ButtonBox background Packag
+Update 12 Jul 2024 Update ButtonBox background Package
 Update 11 Jul 2024 Update StatusBarApp, change background Package
 Update 16 Jan 2024  List Support adapter in Readme
 Update 02 July 2023  Change Background program
