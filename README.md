@@ -91,6 +91,7 @@ Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 
 #### Packages for macOS (Real Mac) Working on Hackintosh PC or Laptop
 - Credit: ➣ [Realtek](https://www.realtek.com/en/)
+- Credit: ➣ [OCLP-Mod](https://github.com/laobamac/OCLP-Mod)
 
 
 #### ⬇︎ :  Known Working and testing adapter
