@@ -1,11 +1,15 @@
 ## Usage for macOS Tahoe:
 
 -1- You need Ethernet connection
+
 -2- You need install [OCLP-Mod ](https://github.com/laobamac/OCLP-Mod) ➤ [Latest Release](https://github.com/laobamac/OCLP-Mod/releases)
+
 -3- You need OpenCore 1.0.5 with all kexts updated
+
 -4- You need a macOS Tahoe 26 installation
 
 Follow every steps in the images bellow: ⬇︎
+
 *** Usage OCLP-Mod ***
 
 <img width="866" height="515" alt="Image" src="https://github.com/user-attachments/assets/f427b331-52ad-4460-8f22-a6c915f751cd" />
@@ -21,4 +25,4 @@ Follow every steps in the images bellow: ⬇︎
 ## Revert the Patch (Uninstall OCLP-Mod) ⬇︎
 <img width="712" height="443" alt="Image" src="https://github.com/user-attachments/assets/0011180c-84d8-45a4-a20d-736cf5fd4d3b" />
 
-After reboot you can use Wireless USB Big Sur Adapter
+After reboot you can use [Wireless USB Big Sur Adapter](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V18)
