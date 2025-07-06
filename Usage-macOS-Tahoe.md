@@ -26,3 +26,7 @@ Follow every steps in the images bellow: ⬇︎
 <img width="712" height="443" alt="Image" src="https://github.com/user-attachments/assets/0011180c-84d8-45a4-a20d-736cf5fd4d3b" />
 
 After reboot you can use [Wireless USB Big Sur Adapter](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/releases/tag/V18)
+
+Success ⬇︎
+
+![Screenshot Tahoe](https://github.com/user-attachments/assets/93eb4665-5116-40b9-8f6e-4b4ad94c774c)
