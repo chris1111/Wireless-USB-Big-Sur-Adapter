@@ -161,6 +161,7 @@ Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 - UGreen CM448
 - YUNCLOUD Realtek (RTL8814AU)
 - ZAPO W58L (RTL881lAU)
+- Zebronics USB150WF1
 - Zyxel NWD6602
 - Zyxel NWD6605
 - If you have a non listing working adapter please report it here ☞ [Report working adapter](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter/discussions)
