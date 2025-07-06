@@ -29,4 +29,4 @@ After reboot you can use [Wireless USB Big Sur Adapter](https://github.com/chris
 
 Success ⬇︎
 
-![Screenshot Tahoe](https://github.com/user-attachments/assets/93eb4665-5116-40b9-8f6e-4b4ad94c774c)
+![Screenshot Tahoe](https://github.com/user-attachments/assets/3d6ca0c5-1f15-4e9c-8f08-5139a6fc8815)
