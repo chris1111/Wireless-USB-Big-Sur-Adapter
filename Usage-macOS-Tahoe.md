@@ -17,7 +17,7 @@ Follow every steps in the images bellow: ⬇︎
 <img width="954" height="694" alt="Image" src="https://github.com/user-attachments/assets/ff71288a-b735-4f19-82dd-22bc7f85306d" />
 <img width="712" height="797" alt="Image" src="https://github.com/user-attachments/assets/06aa7b9a-f27f-4f08-ae86-716ab8767539" />
 <img width="712" height="797" alt="Image" src="https://github.com/user-attachments/assets/75b4120b-0a51-4cb3-9860-d02b4528b93b" />
-<img width="712" height="797" alt="Image" src="https://github.com/user-attachments/assets/aca049aa-ca2c-4fc3-a5c1-d45618457605" />
+<img width="712" height="797" alt="Screenshot 2025-07-14 at 8 22 36 PM" src="https://github.com/user-attachments/assets/2d99219d-c45b-42e9-9fdc-b3763172283d" />
 <img width="712" height="797" alt="Image" src="https://github.com/user-attachments/assets/4a08f8b1-1b8f-4e10-bdab-5d65ca46d3c1" />
 <img width="712" height="443" alt="Image" src="https://github.com/user-attachments/assets/44fccd70-f29f-45ac-93f2-b28dedda7af6" />
 <img width="712" height="443" alt="Image" src="https://github.com/user-attachments/assets/8e751965-648d-4f22-860f-7b1a89e13cbc" />
