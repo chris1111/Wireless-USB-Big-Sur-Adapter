@@ -1,6 +1,4 @@
 ## Usage for macOS Tahoe:
-
-## Usage for macOS Tahoe:
 -1- You need a macOS Tahoe 26 installation
 
 -2- You need Ethernet connection
