@@ -26,11 +26,13 @@
 
 ## It seems that it does not work on Mac M1, M2, M3, M4 Apple chip, working only for Mac Intel.
 
-### Latest Update 05 Jul 2025 Support macOS Tahoe 26
+### Latest Update 18 Oct 2025 Update Wifi Icons
 
 ## List Update: ⬇︎
 <details> 
   <summary>View list Update</summary>
+
+Update 05 Jul 2025 Support macOS Tahoe 26
 	
 Update 04 Jul 2025 Support macOS Mojave 10.14.6
 
