@@ -34,7 +34,6 @@ Success ⬇︎
 
 
 Default Blue <img width="128" height="128" alt="wifi-128-blue" src="https://github.com/user-attachments/assets/c300c6d3-1f46-43d6-8608-e87f0d836a8a" />
-
 Updated to White
 <img width="128" height="128" alt="wifi-128-white" src="https://github.com/user-attachments/assets/28fa7e8a-4bcc-4f41-b494-02222802d9b5" />
 
