@@ -17,6 +17,8 @@ Sleep 1
 APP="StatusBarApp"
 HELPER="RtWlanHelper"
 INF_NAME="netrtwlanu.inf"
+AUX_PATH="com.realtek.utility.wifi"
+
 
 #APP location.
 ROOT_PATH="/Library/Application Support/WLAN"
@@ -28,35 +30,20 @@ sudo chmod -R 777 "$ROOT_PATH/$APP.app"
 sudo chmod -R 777 "$ROOT_PATH/$AUX_PATH/"
 sleep 1
 sudo chown -R root:wheel "$ROOT_PATH/$APP.app"
-sudo chown -R root:wheel "$ROOT_PATH/$AUX_PATH/$HELPER"
-chown -R root:wheel /Library/LaunchAgents/Wlan.Software.plist
-sleep 1
-chmod -R 555 /Library/LaunchAgents/Wlan.Software.plist
+sudo chown -R root:wheel "$ROOT_PATH/$HELPER"
 
-
-# Load the new LaunchAgent.
-/bin/launchctl unload /Library/LaunchAgents/Wlan.Software.plist
-
-#/bin/launchctl load /Library/LaunchAgents/Wlan.Software.plist
 
 # chmod 777 is not work.
 # [MACOS-15]
 chmod -R 777 $UTILITY_SOCK_NAME
 
-chown -R root:wheel /Library/LaunchDaemons/Wlan.SoftwareDaemon.plist
-sleep 1
-chmod -R 555 /Library/LaunchDaemons/Wlan.SoftwareDaemon.plist
 
 
-# Load the new LaunchDaemons.
-/bin/launchctl unload /Library/LaunchDaemons/Wlan.SoftwareDaemon.plist
-
-/bin/launchctl load /Library/LaunchDaemons/Wlan.SoftwareDaemon.plist
-
-osascript <<EOD
-delay 2
-tell application "Finder" to open POSIX file "/Library/Application Support/WLAN/StatusBarApp.app"
-EOD
 Sleep 2
+open "/Library/Application Support/WLAN/StatusBarApp.app"
+echo "Done"
+Sleep 2
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Library/Application Support/WLAN/StatusBarApp.app", hidden:false}'
+
 echo "PostInstall_UI Complete."
 
