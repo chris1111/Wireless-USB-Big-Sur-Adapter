@@ -3,6 +3,8 @@
 <details> 
   <summary>View list Update</summary>
 
+Update 18 Oct 2025 Update Wifi Icons
+
 Update 05 Jul 2025 Support macOS Tahoe 26
 	
 Update 04 Jul 2025 Support macOS Mojave 10.14.6
