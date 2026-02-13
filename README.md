@@ -2,6 +2,8 @@
 
 [![pages-build-deployment](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/actions/workflows/pages/pages-build-deployment)
 
+<img src="https://hitscounter.dev/api/hit?url=https://github.com/chris1111&label=VISITORS&icon=gift&color=%23198754&message=&style=for-the-badge&tz=US%2FEastern">
+
 ### Drivers for Realtek 802.11n and 802.11ac USB Wi-Fi adapters 
 - ( 🚫  It does not work on [Mediatek](https://github.com/chris1111/D-LinkUtility-Package) adapters)
 
