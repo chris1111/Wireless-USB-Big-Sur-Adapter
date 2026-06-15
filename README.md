@@ -143,6 +143,7 @@ Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 - Linksys WUSB6300 V2 
 - Linksys WUSB6400M
 - M-Tech UW-01 USB
+- MAYMII·HOME [RTL8811CU](https://www.amazon.ca/Wireless-Adapter-600Mbps-Realtek-RTL8811CU/dp/B0C4KJNJZ2)
 - Mercusys MW300UM
 - Netgear A6100
 - Netgear A6150
