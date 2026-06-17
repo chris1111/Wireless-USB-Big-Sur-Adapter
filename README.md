@@ -144,7 +144,7 @@ Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 - Linksys WUSB6400M
 - M-Tech UW-01 USB
 - MAYMII·HOME [RTL8811CU](https://www.amazon.ca/Wireless-Adapter-600Mbps-Realtek-RTL8811CU/dp/B0C4KJNJZ2)
-- MLINK 96581 USB WiFi adapter [MLINK 96581](https://addison-electronique.com/en/dual-band-usb-2-0-wi-fi-adapter-with-antenna-2-4-5-ghz-600-mbps.html?utm_source=google&utm_medium=cpc&utm_campaign=cyberpublicity-performance-max&gad_source=1&gad_campaignid=18904936204&gbraid=0AAAAApDwgtQqhVjMbQlSSOWhBCkYFHTan&gclid=Cj0KCQjwi8nRBhDhARIsAHZf_pbfOBL7-BclEon98wWhk51Q4j3WMR-URYkCxyxFmcIaL3Nna4h5vPkaAhhmEALw_wcB)
+- MLINK 96581 USB WiFi adapter [MLINK 96581](https://addison-electronique.com/en/dual-band-usb-2-0-wi-fi-adapter-with-antenna-2-4-5-ghz-600-mbps.html?utm_source=google&utm_medium=cpc&utm_campaign=cyberpublicity-performance-max&gad_source=1&gad_campaignid=18904936204&gbraid=0AAAAApDwgtQqhVjMbQlSSOWhBCkYFHTan&gclid=Cj0KCQjwi8nRBhDhARIsAHZf_pbfOBL7-BclEon98wWhk51Q4j3WMR-URYkCxyxFmcIaL3Nna4h5vPkaAhhmEALw_wcB) ➦ [Mlink 96581 USB Wifi](https://www.ebay.ca/itm/332445049765?_skw=mlink+usb+wifi&itmmeta=01KVBHHYYPYJR388XA8GK0DRAE&hash=item4d6744e3a5:g:WjgAAOSw63FaBgRd&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xCsqrFeAcKJzfvfZJ1ZMYqwhy6Jn31m2mDlk%2BmZzufZwjV2Mtx4CjNI3IxN8J8UfOSkjehkYKLgxx%2FS16R3gDqLWxrUXJKEXtEqN%2FZ5t%2FM2MSOEYkzeU%2B%2Bslgrj8Y32xA3vyP%2BS3ZJ21Rzcj8WOtyJGPD7kmL5VEZANjx6IfphEgIi4Rn0LQQvEQLV%2FUfnnMyo06ddrtmm9oIv5VfPHEo8KBAOP7pI1VSHjqol22NxPJ%2FKzlZOcKdAy6NHvl6JYJ1gunsEa6LPQY%2FvsMPx19omqYJ%2FOQy63xp1nNaTTXGTMgg%3D%3D%7Ctkp%3ABk9SR8Tvx_HaZw)
 - Mercusys MW300UM
 - Netgear A6100
 - Netgear A6150
