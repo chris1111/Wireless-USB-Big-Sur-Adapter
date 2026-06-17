@@ -144,6 +144,7 @@ Update 29 Nov 2020 Using a blue WIFI icon but similar to Big Sur
 - Linksys WUSB6400M
 - M-Tech UW-01 USB
 - MAYMII·HOME [RTL8811CU](https://www.amazon.ca/Wireless-Adapter-600Mbps-Realtek-RTL8811CU/dp/B0C4KJNJZ2)
+- MLINK 96581 USB WiFi adapter [MLINK 96581](https://addison-electronique.com/en/dual-band-usb-2-0-wi-fi-adapter-with-antenna-2-4-5-ghz-600-mbps.html?utm_source=google&utm_medium=cpc&utm_campaign=cyberpublicity-performance-max&gad_source=1&gad_campaignid=18904936204&gbraid=0AAAAApDwgtQqhVjMbQlSSOWhBCkYFHTan&gclid=Cj0KCQjwi8nRBhDhARIsAHZf_pbfOBL7-BclEon98wWhk51Q4j3WMR-URYkCxyxFmcIaL3Nna4h5vPkaAhhmEALw_wcB)
 - Mercusys MW300UM
 - Netgear A6100
 - Netgear A6150
