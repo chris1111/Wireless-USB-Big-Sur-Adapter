@@ -4,6 +4,7 @@
 
 ### Drivers for Realtek 802.11n and 802.11ac USB Wi-Fi adapters 
 - ( 🚫  It does not work on [Mediatek](https://github.com/chris1111/D-LinkUtility-Package) adapters)
+- ( 🚫  It does not work for WPA3 networks)
 
 ### Welcome to Wireless USB Big Sur Adapter
 ### Support [macOS Tahoe 26 ➤ Usage](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter/blob/master/Usage-macOS-Tahoe.md) - macOS Sequoia 15 - macOS Sonoma 14 - macOS Ventura 13 - macOS Monterey 12 - macOS Big Sur 11, macOS Catalina, macOS Mojave 10.14.6 Only! (DO NOT USE ON OTHER OS's)
